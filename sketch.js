@@ -52,7 +52,7 @@ button.addEventListener('click', function() {
 function draw() {
   colorMode(RGB);
   background(0, 0, 0, 25);
-  if(random(1) < 0.08){
+  if(random(1) < 0.04){
   fireworks.push(new Firework());
 }
   for(var i = fireworks.length-1 ; i >=0 ; i--){
