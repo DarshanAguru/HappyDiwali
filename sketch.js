@@ -21,10 +21,10 @@ function toggleSong(){
 }
 
 function setup() {
-  createCanvas(screen.width, screen.height/1.25);
+  createCanvas(screen.width, screen.height/2);
   colorMode(HSB);
 
-    gravity = createVector(0, 0.2);
+    gravity = createVector(0, 0.4);
   stroke(255);
   strokeWeight(4);
   background(0);
