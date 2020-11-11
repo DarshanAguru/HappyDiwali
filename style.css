@@ -1,4 +1,4 @@
-html,head,  body {
+html,  body {
   background-color: black;
   margin: 0;
   padding: 0;
@@ -7,23 +7,31 @@ html,head,  body {
 h1{
   color: white;
   text-align: center;
-  font-size: 64px;
+  font-size: 48px;
 }
 canvas {
   display: block;
 }
+head {
+  background-color:#ce3635;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  padding-top:10em;
+}
+* { color:#fff;
+  font-weight: bold;
+  font-family: cursive;
+  text-decoration: none;}
 
 button {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 10px;
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
-  padding: 15px 32px;
-  text-align: center;
+  padding: 4px 10px;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 16px;
   border-radius: 8px;
-    background-color: #3e8e41;
-  box-shadow: 0 5px #666;
 }
